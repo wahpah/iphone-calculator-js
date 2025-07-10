@@ -88,3 +88,27 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 420px; /* fits nicely on most phones */
+  aspect-ratio: 9 / 16;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.display {
+  width: 90%;
+  margin: 0 auto;
+}
