@@ -90,29 +90,19 @@ body {
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
   background: black !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100% !important;
+  margin: 0 !important;
 }
 
-.container {
+.container, .calculator {
+  background: black !important;
   width: 100% !important;
   max-width: 420px !important;
-  height: auto !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.calculator {
-  width: 100% !important;
-  height: auto !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
