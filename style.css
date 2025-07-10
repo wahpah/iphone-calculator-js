@@ -93,22 +93,26 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: black;
+  background: black !important;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.calculator {
-  width: 100%;
-  max-width: 420px; /* fits nicely on most phones */
-  aspect-ratio: 9 / 16;
+.container {
+  width: 100% !important;
+  max-width: 420px !important;
+  height: auto !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.display {
-  width: 90%;
-  margin: 0 auto;
+.calculator {
+  width: 100% !important;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
